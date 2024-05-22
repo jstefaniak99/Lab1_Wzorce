@@ -15,7 +15,7 @@ def naive_method(text, pattern):
     
     return result
 
-text = "ababcabcababc"
+text = "Loremipabcsumdolorsitametconsecteturabc"
 pattern = "abc"
 
 start = time.time()
@@ -24,4 +24,4 @@ end = time.time()
 
 execution_time = end - start
 print("Naiwne wyszukiwanie:", naive_result)
-print(f"Czas wykonania: {execution_time:.6f} sekund")
+print(f"Czas wykonania: {execution_time:.8f} sekund")
